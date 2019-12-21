@@ -5,16 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link href="css/styles.css" rel="stylesheet">
     <title>My first website</title>
 </head>
 
 <body>
     <header>
-        <h1><strong>MY FIRST WEBSITE</strong></h1>
-        <h2></h2>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>My First Website<br>
+                    <br> By MAUREEN NIMO.</h1>
+                <p quote="Declare variables,not war"></p>
+            </div>
+        </div>
     </header>
     <section>
+            <div class="container">
         <p>Hello world!</p>
         <p>Welcome to my first Webpage!</p>
         <p> I am so excited to learn and practice.</p>
@@ -31,16 +38,21 @@
         <p>It's been an exciting yet stressful journey so we'll see how it goes. Stay tuned to my journey</p>
         <p>Here's a link to my <a href="favorite-things.html">Favorite Things.</a></p>
         <p>Share your thoughts on this blog by leaving a COMMENT!</p>
-
-    </section>
+    </section><br>
     <footer>
-        <h2><b>CONTACT US</b></h2>
+            <div class="container">
+        <h2><b>CONTACT US</b></h2><hr>
         <form>
-            <input type="email" name="email" placeholder="Your Email" class="form-control" required>
-            <input type="text" name="name" placeholder="Your Name" class="form-control" required>
-            <textarea name="messsage" id="messsage" cols="30" rows="10">Leave a message</textarea>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" class="form-control-md" required>
+                <input type="text" name="name" placeholder="Your Name" class="form-control-md" required>
+            </div>
+            <div class="form-group">
+                <textarea name="messsage" id="messsage" cols="45" rows="6">Leave a message</textarea>
+            </div>
         </form>
-        <h3> Copyright (c) 2019 maureen28</h3>
+        <p class="cop"> Copyright (c) 2019 maureen28</p>
+    </div>
     </footer>
 </body>
 
