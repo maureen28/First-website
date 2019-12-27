@@ -7,7 +7,6 @@ body {
 ul {
     list-style: square inside;
     font-size: 1.25em;
-    color: crimson;
 }
 
 h1,h3 {
